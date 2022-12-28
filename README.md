@@ -8,7 +8,6 @@ These are a suite of C++ programs which deal with Sudoku Puzzles. The name might
 * [Sudoku Validator](#sudoku-validator)
     * [Getting Started (Usage)](#getting-started-1)
     * [How It Works](#how-it-works-1)
-* [Acknowledgements](#acknowledgements)
 * [Tools](#tools)
 
 # Sudoku-Solver
@@ -109,11 +108,6 @@ The workings of the Sudoku Validator are quite simple, to be honest. Here's a si
 * Right now, the Sudoku Solver Suite is just a CLI application with a I/O interface. However, if we could make it into a CLI utility which takes in inputs through parameters and switches, that would make it easier for other developers to reuse.
 * I was thinking we could write a "backend" which could then be called by various "interface frontends". The backend is written in C++ and the frontends could be shell or maybe an API or something.
 * The objective would be for this to be used by web backends and things like that.
-
-## Acknowledgements
-
-* Shriram R - Idea Inspiration
-* Aravind B - Puzzle Display Design Ideas
 
 ## Tools
 * Vim Editor
